@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Сказочки</title>
+	<link rel="stylesheet" href="skazki/style.css">
+	<script src="skazki/jvscrpt.js"></script>
+	<link rel="icon" href="img/ico.png" type="image/x-icon">
+
+</head>
+<body>
+	<h1>Сказки</h1>
+		<button onclick="CloseSkazki()" class="Exit">Закрыть</button>
+		<h1 class="hh1">Популярная сказка!</h1>
+		<div class="fotoskazok">
+			<div class="animefoto">
+			<img src="skazki/img/sk1.jpg" id="sk1" onclick="openBook()">
+			</div>
+			<button class="kniga" onclick="openBook()">Прочитать книгу</button>
+		</div>
+		<div class="spisok">
+			<ol>
+				<li id="pnk1" onclick="kn1()">Кошки мышки</li>
+				<li id="pnk1" onclick="kn2()">Маша и медведь</li>
+				<li id="pnk1">Волшебный сундучок</li>
+				<li id="pnk1">Курочка ряба</li>
+				<li id="pnk1">Приключения Фунтика</li>
+				<li id="pnk1">3096 дней</li>
+				<li id="pnk1">Энциклопедия</li>
+			</ol>
+		</div>
+</body>
+</html>
