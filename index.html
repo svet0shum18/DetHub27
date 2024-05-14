@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>МультиСфера</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+<link rel="icon" href="img/ico.png" type="image/x-icon">
+	<script src="script.js"></script>
+</head>
+<body onload="installFairyTale()">
+		<div class="dialog">
+			<p id="p1">Хочешь посмотреть мультик?<p id="mult"></p></p>
+			<div class="Knopik">
+			<button class="BtnDa" onclick="transitionToAFairyTale()">Да</button>
+			<button class="BtnNet" onclick="WriteNo()">Нет</button>
+			</div>
+			</div>
+		<div class="str1">
+			<p id="p2">ВЫБИРАЙ, ЧТО ХОЧЕШЬ!</p>
+			<div class="foto">
+				<img id=f1 src="img/icoskazki.png">
+				<img id="f2" src="img/icovidio.png">
+			</div>
+			<button class="sk" onclick="OpenSkazka()">СКАЗКИ</button>
+			<button class="fl" onclick="OpenMult()">МУЛЬТИКИ</button>
+		</div>
+		<div class="reg">
+			<p id="p2">Хочешь всегда иметь доступ к мультикам и книжкам?</p>
+		</div>
+		<form>
+			<label for="username" >Придумай свой ник-нейм!</label>
+			<input type="text" id="username" name="username">
+			<label for="username" >Придумай пароль!</label>
+			<input type="password" id="username" name="username">
+			<button type="submit" id="btnreg">Зарегестрироваться</button>
+		
+		</form>
+</body>	
+</html>

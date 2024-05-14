@@ -1,0 +1,239 @@
+* {
+	margin: 0;
+}
+
+
+body {
+	cursor: url(img/cursor.png),auto;
+	background-image: url(img/fon.png);
+	/* background-size: contain; */
+	background-repeat: no-repeat;
+	
+	/* margin: 10px; */
+}
+
+/* ДИАЛОГ */
+
+#p1 {
+	font-family: 'Caveat', cursive;
+	color: #af6799;
+	margin-top: 170px;
+	font-size: 100px;
+	font-weight: bolder;
+	line-height: 90px;
+	width: 50%;
+	text-align: center;
+}	
+
+#mult {
+	font-family: 'Caveat', cursive;
+	/* margin-top: -90px; */
+	color: #6c3b5d;
+	font-size: 80px;
+	font-weight: bolder;
+	line-height: 90px;
+	width: 50%;
+	text-align: center;
+}
+
+/* КНОПКИ ДА НЕТ */
+
+.Knopik {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+.BtnDa {
+	background-color: #5FCCE3;
+	width: 20%;
+	height: 50px;
+	border-radius: 100px;
+	border: 2px solid #af6799;
+	color: #af6799;
+	font-weight: bolder;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 50px;
+	
+}
+
+.BtnDa:hover {
+	background-color: #af6799;
+	border: 2px solid #cfa3c3;
+	color: #fee9ff;
+	transition: 0.3s;
+	cursor: url(img/cursor.png),auto;
+}
+
+.BtnNet {
+	background-color: #5FCCE3;
+	width: 20%;
+	height: 50px;
+	margin-left: 30px;
+	margin-top: 50px;
+	border-radius: 100px;
+	border: 2px solid #af6799;
+	color: #af6799;
+	font-weight: bolder;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.BtnNet:hover {
+	background-color: #af6799;
+	border: 2px solid #cfa3c3;
+	color: #fee9ff;
+	transition: 0.3s;
+	cursor: url(img/cursor.png),auto;
+}
+
+
+/* ВТОРАЯ СТР */
+
+
+
+.str1 {
+	width: 100%;
+	margin-top: 150px;
+
+	/* height: 900px;  */
+	
+}
+#p2 {
+	font-family: 'Caveat', cursive;
+	color: #af6799;
+	margin-top: 170px;
+	font-size: 80px;
+	font-weight: bolder;
+	line-height: 90px;
+	width: 50%;
+	text-align: center;
+	margin-left: 300px;
+}
+
+a {
+	font-size: 30px;
+	color: #6c3b5d;
+	text-decoration: none;
+}
+
+.foto {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+#f1 {
+	width: 350px;
+	margin-left: 200px;
+}
+
+/* #f1:hover {
+	width: 400px;
+	height: min-content;
+	transform: 
+} */
+#f2 {
+	width: 350px;
+	margin-right: 200px;
+}
+/* 
+#f2:hover {
+	width: 400px;
+	height: min-content;
+	transform: scale(1.2);
+} */
+/* КНОПКИ СКАЗКА ФИЛЬМ */
+
+.sk {
+	width: 200px;
+	height: 80px;
+	border-radius: 100px;
+	font-size: 30px;
+	color: #6c3b5d;
+	background-color: #cfa3c3;
+	border: 2px solid #6c3b5d;
+	margin-left: 280px;
+	margin-top: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	cursor: url(img/cursor.png),auto;
+}
+
+.sk:hover {
+	background-color: #5FCCE3;
+	border: 2px dashed #6c3b5d;
+	transition: 0.3s;
+
+}
+
+.fl {
+	width: 200px;
+	height: 80px;
+	border-radius: 100px;
+	font-size: 30px;
+	color: #6c3b5d;
+	background-color: #cfa3c3;
+	border: 2px solid #6c3b5d;
+	margin-left: 280px;
+	margin-top: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	cursor: url(img/cursor.png),auto;
+	
+}
+
+.fl:hover {
+	background-color: #5FCCE3;
+	border: 2px dashed #6c3b5d;
+	transition: 0.3s;
+	
+
+}
+
+
+
+/* РЕГИСТРАЦИЯ */
+
+form {
+	border: 3px solid #6c3b5d;
+	border-radius: 50px;
+	width: 100%px;
+	height: 50px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 8px;
+	margin-top: 30px;
+}
+#username {
+	border-radius: 100px;
+	border: 3px solid #cfa3c3;
+	font-size: 20px;
+	color: #6c3b5d;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	margin-left: 3px;
+	margin-right: 5px;
+
+}
+label {
+	padding: 2px;
+	color: #6c3b5d;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+#btnreg {
+	background-color: #cfa3c3;
+	border: 2px solid #6c3b5d;
+	border-radius: 100px;
+	font-size: 20px;
+	font-weight: bolder;
+	color: #6c3b5d;
+
+}
